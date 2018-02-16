@@ -1,0 +1,2280 @@
+ubuntu@ip-172-31-22-219:~/CarND-Semantic-Segmentation$ python main.py
+/home/ubuntu/anaconda3/lib/python3.6/importlib/_bootstrap.py:205: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+TensorFlow Version: 1.4.0
+2018-02-15 22:41:15.579391: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-02-15 22:41:17.531549: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-02-15 22:41:17.531905: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties:
+name: Tesla M60 major: 5 minor: 2 memoryClockRate(GHz): 1.1775
+pciBusID: 0000:00:1e.0
+totalMemory: 7.43GiB freeMemory: 7.36GiB
+2018-02-15 22:41:17.531931: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla M60, pci bus id: 0000:00:1e.0, compute capability: 5.2)
+2018-02-15 22:41:17.603098: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla M60, pci bus id: 0000:00:1e.0, compute capability: 5.2)
+Default GPU Device: /device:GPU:0
+2018-02-15 22:41:17.604181: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla M60, pci bus id: 0000:00:1e.0, compute capability: 5.2)
+Tests Passed
+Tests Passed
+2018-02-15 22:41:18.273417: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla M60, pci bus id: 0000:00:1e.0, compute capability: 5.2)
+Tests Passed
+2018-02-15 22:41:18.531059: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla M60, pci bus id: 0000:00:1e.0, compute capability: 5.2)
+Tests Passed
+Tests Passed
+2018-02-15 22:41:18.539010: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla M60, pci bus id: 0000:00:1e.0, compute capability: 5.2)
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/scipy/misc/pilutil.py:482: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if issubdtype(ts, int):
+/home/ubuntu/anaconda3/lib/python3.6/site-packages/scipy/misc/pilutil.py:485: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  elif issubdtype(type(size), float):
+Start Training:
+Epoch 1  of 30  Loss: = 1.4900
+Start Training:
+Epoch 1  of 30  Loss: = 1.3218
+Start Training:
+Epoch 1  of 30  Loss: = 1.1875
+Start Training:
+Epoch 1  of 30  Loss: = 0.9924
+Start Training:
+Epoch 1  of 30  Loss: = 0.8951
+Start Training:
+Epoch 1  of 30  Loss: = 0.8766
+Start Training:
+Epoch 1  of 30  Loss: = 0.8754
+Start Training:
+Epoch 1  of 30  Loss: = 0.8074
+Start Training:
+Epoch 1  of 30  Loss: = 0.7758
+Start Training:
+Epoch 1  of 30  Loss: = 0.7676
+Start Training:
+Epoch 1  of 30  Loss: = 0.7412
+Start Training:
+Epoch 1  of 30  Loss: = 0.7371
+Start Training:
+Epoch 1  of 30  Loss: = 0.7213
+Start Training:
+Epoch 1  of 30  Loss: = 0.7234
+Start Training:
+Epoch 1  of 30  Loss: = 0.7121
+Start Training:
+Epoch 1  of 30  Loss: = 0.7121
+Start Training:
+Epoch 1  of 30  Loss: = 0.7039
+Start Training:
+Epoch 1  of 30  Loss: = 0.6975
+Start Training:
+Epoch 1  of 30  Loss: = 0.6915
+Start Training:
+Epoch 1  of 30  Loss: = 0.6891
+Start Training:
+Epoch 1  of 30  Loss: = 0.6856
+Start Training:
+Epoch 1  of 30  Loss: = 0.6809
+Start Training:
+Epoch 1  of 30  Loss: = 0.6768
+Start Training:
+Epoch 1  of 30  Loss: = 0.6719
+Start Training:
+Epoch 1  of 30  Loss: = 0.6666
+Start Training:
+Epoch 1  of 30  Loss: = 0.6636
+Start Training:
+Epoch 1  of 30  Loss: = 0.6543
+Start Training:
+Epoch 1  of 30  Loss: = 0.6454
+Start Training:
+Epoch 1  of 30  Loss: = 0.6418
+Start Training:
+Epoch 1  of 30  Loss: = 0.6353
+Start Training:
+Epoch 1  of 30  Loss: = 0.6135
+Start Training:
+Epoch 1  of 30  Loss: = 0.6108
+Start Training:
+Epoch 1  of 30  Loss: = 0.5973
+Start Training:
+Epoch 1  of 30  Loss: = 0.6071
+Start Training:
+Epoch 1  of 30  Loss: = 0.5912
+Start Training:
+Epoch 1  of 30  Loss: = 0.5758
+Start Training:
+Epoch 1  of 30  Loss: = 0.5759
+
+Start Training:
+Epoch 2  of 30  Loss: = 0.5357
+Start Training:
+Epoch 2  of 30  Loss: = 0.5322
+Start Training:
+Epoch 2  of 30  Loss: = 0.5249
+Start Training:
+Epoch 2  of 30  Loss: = 0.5258
+Start Training:
+Epoch 2  of 30  Loss: = 0.4924
+Start Training:
+Epoch 2  of 30  Loss: = 0.4663
+Start Training:
+Epoch 2  of 30  Loss: = 0.4945
+Start Training:
+Epoch 2  of 30  Loss: = 0.4619
+Start Training:
+Epoch 2  of 30  Loss: = 0.4497
+Start Training:
+Epoch 2  of 30  Loss: = 0.4378
+Start Training:
+Epoch 2  of 30  Loss: = 0.4337
+Start Training:
+Epoch 2  of 30  Loss: = 0.3932
+Start Training:
+Epoch 2  of 30  Loss: = 0.4048
+Start Training:
+Epoch 2  of 30  Loss: = 0.3780
+Start Training:
+Epoch 2  of 30  Loss: = 0.3653
+Start Training:
+Epoch 2  of 30  Loss: = 0.3763
+Start Training:
+Epoch 2  of 30  Loss: = 0.3798
+Start Training:
+Epoch 2  of 30  Loss: = 0.3512
+Start Training:
+Epoch 2  of 30  Loss: = 0.3607
+Start Training:
+Epoch 2  of 30  Loss: = 0.3380
+Start Training:
+Epoch 2  of 30  Loss: = 0.3411
+Start Training:
+Epoch 2  of 30  Loss: = 0.2902
+Start Training:
+Epoch 2  of 30  Loss: = 0.2873
+Start Training:
+Epoch 2  of 30  Loss: = 0.2816
+Start Training:
+Epoch 2  of 30  Loss: = 0.2478
+Start Training:
+Epoch 2  of 30  Loss: = 0.2569
+Start Training:
+Epoch 2  of 30  Loss: = 0.2358
+Start Training:
+Epoch 2  of 30  Loss: = 0.2383
+Start Training:
+Epoch 2  of 30  Loss: = 0.2708
+Start Training:
+Epoch 2  of 30  Loss: = 0.2311
+Start Training:
+Epoch 2  of 30  Loss: = 0.2553
+Start Training:
+Epoch 2  of 30  Loss: = 0.2117
+Start Training:
+Epoch 2  of 30  Loss: = 0.1982
+Start Training:
+Epoch 2  of 30  Loss: = 0.2538
+Start Training:
+Epoch 2  of 30  Loss: = 0.2109
+Start Training:
+Epoch 2  of 30  Loss: = 0.2100
+Start Training:
+Epoch 2  of 30  Loss: = 0.1040
+
+Start Training:
+Epoch 3  of 30  Loss: = 0.2054
+Start Training:
+Epoch 3  of 30  Loss: = 0.1745
+Start Training:
+Epoch 3  of 30  Loss: = 0.2501
+Start Training:
+Epoch 3  of 30  Loss: = 0.2919
+Start Training:
+Epoch 3  of 30  Loss: = 0.1807
+Start Training:
+Epoch 3  of 30  Loss: = 0.1810
+Start Training:
+Epoch 3  of 30  Loss: = 0.2024
+Start Training:
+Epoch 3  of 30  Loss: = 0.1997
+Start Training:
+Epoch 3  of 30  Loss: = 0.1719
+Start Training:
+Epoch 3  of 30  Loss: = 0.1668
+Start Training:
+Epoch 3  of 30  Loss: = 0.1817
+Start Training:
+Epoch 3  of 30  Loss: = 0.2075
+Start Training:
+Epoch 3  of 30  Loss: = 0.1967
+Start Training:
+Epoch 3  of 30  Loss: = 0.1890
+Start Training:
+Epoch 3  of 30  Loss: = 0.1515
+Start Training:
+Epoch 3  of 30  Loss: = 0.1787
+Start Training:
+Epoch 3  of 30  Loss: = 0.2156
+Start Training:
+Epoch 3  of 30  Loss: = 0.2074
+Start Training:
+Epoch 3  of 30  Loss: = 0.1505
+Start Training:
+Epoch 3  of 30  Loss: = 0.1943
+Start Training:
+Epoch 3  of 30  Loss: = 0.2161
+Start Training:
+Epoch 3  of 30  Loss: = 0.2598
+Start Training:
+Epoch 3  of 30  Loss: = 0.1832
+Start Training:
+Epoch 3  of 30  Loss: = 0.1522
+Start Training:
+Epoch 3  of 30  Loss: = 0.1599
+Start Training:
+Epoch 3  of 30  Loss: = 0.2148
+Start Training:
+Epoch 3  of 30  Loss: = 0.1721
+Start Training:
+Epoch 3  of 30  Loss: = 0.1604
+Start Training:
+Epoch 3  of 30  Loss: = 0.1414
+Start Training:
+Epoch 3  of 30  Loss: = 0.1454
+Start Training:
+Epoch 3  of 30  Loss: = 0.2027
+Start Training:
+Epoch 3  of 30  Loss: = 0.1562
+Start Training:
+Epoch 3  of 30  Loss: = 0.1628
+Start Training:
+Epoch 3  of 30  Loss: = 0.1313
+Start Training:
+Epoch 3  of 30  Loss: = 0.1538
+Start Training:
+Epoch 3  of 30  Loss: = 0.1708
+Start Training:
+Epoch 3  of 30  Loss: = 0.1835
+
+Start Training:
+Epoch 4  of 30  Loss: = 0.1599
+Start Training:
+Epoch 4  of 30  Loss: = 0.1481
+Start Training:
+Epoch 4  of 30  Loss: = 0.1743
+Start Training:
+Epoch 4  of 30  Loss: = 0.1411
+Start Training:
+Epoch 4  of 30  Loss: = 0.1609
+Start Training:
+Epoch 4  of 30  Loss: = 0.1521
+Start Training:
+Epoch 4  of 30  Loss: = 0.1396
+Start Training:
+Epoch 4  of 30  Loss: = 0.1715
+Start Training:
+Epoch 4  of 30  Loss: = 0.1364
+Start Training:
+Epoch 4  of 30  Loss: = 0.1718
+Start Training:
+Epoch 4  of 30  Loss: = 0.1487
+Start Training:
+Epoch 4  of 30  Loss: = 0.1105
+Start Training:
+Epoch 4  of 30  Loss: = 0.1200
+Start Training:
+Epoch 4  of 30  Loss: = 0.1551
+Start Training:
+Epoch 4  of 30  Loss: = 0.1280
+Start Training:
+Epoch 4  of 30  Loss: = 0.1441
+Start Training:
+Epoch 4  of 30  Loss: = 0.1243
+Start Training:
+Epoch 4  of 30  Loss: = 0.1303
+Start Training:
+Epoch 4  of 30  Loss: = 0.0958
+Start Training:
+Epoch 4  of 30  Loss: = 0.1083
+Start Training:
+Epoch 4  of 30  Loss: = 0.1130
+Start Training:
+Epoch 4  of 30  Loss: = 0.1721
+Start Training:
+Epoch 4  of 30  Loss: = 0.1580
+Start Training:
+Epoch 4  of 30  Loss: = 0.1672
+Start Training:
+Epoch 4  of 30  Loss: = 0.1320
+Start Training:
+Epoch 4  of 30  Loss: = 0.1368
+Start Training:
+Epoch 4  of 30  Loss: = 0.1120
+Start Training:
+Epoch 4  of 30  Loss: = 0.1541
+Start Training:
+Epoch 4  of 30  Loss: = 0.1210
+Start Training:
+Epoch 4  of 30  Loss: = 0.1031
+Start Training:
+Epoch 4  of 30  Loss: = 0.1349
+Start Training:
+Epoch 4  of 30  Loss: = 0.1445
+Start Training:
+Epoch 4  of 30  Loss: = 0.1188
+Start Training:
+Epoch 4  of 30  Loss: = 0.1661
+Start Training:
+Epoch 4  of 30  Loss: = 0.1165
+Start Training:
+Epoch 4  of 30  Loss: = 0.1263
+Start Training:
+Epoch 4  of 30  Loss: = 0.1129
+
+Start Training:
+Epoch 5  of 30  Loss: = 0.1508
+Start Training:
+Epoch 5  of 30  Loss: = 0.1229
+Start Training:
+Epoch 5  of 30  Loss: = 0.1142
+Start Training:
+Epoch 5  of 30  Loss: = 0.1040
+Start Training:
+Epoch 5  of 30  Loss: = 0.1099
+Start Training:
+Epoch 5  of 30  Loss: = 0.0991
+Start Training:
+Epoch 5  of 30  Loss: = 0.0918
+Start Training:
+Epoch 5  of 30  Loss: = 0.1455
+Start Training:
+Epoch 5  of 30  Loss: = 0.1315
+Start Training:
+Epoch 5  of 30  Loss: = 0.1451
+Start Training:
+Epoch 5  of 30  Loss: = 0.1261
+Start Training:
+Epoch 5  of 30  Loss: = 0.1476
+Start Training:
+Epoch 5  of 30  Loss: = 0.1121
+Start Training:
+Epoch 5  of 30  Loss: = 0.1134
+Start Training:
+Epoch 5  of 30  Loss: = 0.1028
+Start Training:
+Epoch 5  of 30  Loss: = 0.1094
+Start Training:
+Epoch 5  of 30  Loss: = 0.0993
+Start Training:
+Epoch 5  of 30  Loss: = 0.1255
+Start Training:
+Epoch 5  of 30  Loss: = 0.1185
+Start Training:
+Epoch 5  of 30  Loss: = 0.1383
+Start Training:
+Epoch 5  of 30  Loss: = 0.1294
+Start Training:
+Epoch 5  of 30  Loss: = 0.1208
+Start Training:
+Epoch 5  of 30  Loss: = 0.1338
+Start Training:
+Epoch 5  of 30  Loss: = 0.1241
+Start Training:
+Epoch 5  of 30  Loss: = 0.0852
+Start Training:
+Epoch 5  of 30  Loss: = 0.1217
+Start Training:
+Epoch 5  of 30  Loss: = 0.1287
+Start Training:
+Epoch 5  of 30  Loss: = 0.1169
+Start Training:
+Epoch 5  of 30  Loss: = 0.1025
+Start Training:
+Epoch 5  of 30  Loss: = 0.0950
+Start Training:
+Epoch 5  of 30  Loss: = 0.1458
+Start Training:
+Epoch 5  of 30  Loss: = 0.1010
+Start Training:
+Epoch 5  of 30  Loss: = 0.0994
+Start Training:
+Epoch 5  of 30  Loss: = 0.0833
+Start Training:
+Epoch 5  of 30  Loss: = 0.1104
+Start Training:
+Epoch 5  of 30  Loss: = 0.1205
+Start Training:
+Epoch 5  of 30  Loss: = 0.2211
+
+Start Training:
+Epoch 6  of 30  Loss: = 0.1126
+Start Training:
+Epoch 6  of 30  Loss: = 0.0918
+Start Training:
+Epoch 6  of 30  Loss: = 0.1200
+Start Training:
+Epoch 6  of 30  Loss: = 0.0750
+Start Training:
+Epoch 6  of 30  Loss: = 0.1280
+Start Training:
+Epoch 6  of 30  Loss: = 0.1244
+Start Training:
+Epoch 6  of 30  Loss: = 0.1108
+Start Training:
+Epoch 6  of 30  Loss: = 0.1089
+Start Training:
+Epoch 6  of 30  Loss: = 0.1083
+Start Training:
+Epoch 6  of 30  Loss: = 0.1167
+Start Training:
+Epoch 6  of 30  Loss: = 0.1090
+Start Training:
+Epoch 6  of 30  Loss: = 0.1218
+Start Training:
+Epoch 6  of 30  Loss: = 0.1122
+Start Training:
+Epoch 6  of 30  Loss: = 0.1128
+Start Training:
+Epoch 6  of 30  Loss: = 0.1115
+Start Training:
+Epoch 6  of 30  Loss: = 0.1437
+Start Training:
+Epoch 6  of 30  Loss: = 0.1278
+Start Training:
+Epoch 6  of 30  Loss: = 0.1061
+Start Training:
+Epoch 6  of 30  Loss: = 0.1282
+Start Training:
+Epoch 6  of 30  Loss: = 0.1391
+Start Training:
+Epoch 6  of 30  Loss: = 0.0986
+Start Training:
+Epoch 6  of 30  Loss: = 0.1542
+Start Training:
+Epoch 6  of 30  Loss: = 0.1147
+Start Training:
+Epoch 6  of 30  Loss: = 0.0930
+Start Training:
+Epoch 6  of 30  Loss: = 0.1210
+Start Training:
+Epoch 6  of 30  Loss: = 0.1488
+Start Training:
+Epoch 6  of 30  Loss: = 0.0710
+Start Training:
+Epoch 6  of 30  Loss: = 0.1042
+Start Training:
+Epoch 6  of 30  Loss: = 0.1071
+Start Training:
+Epoch 6  of 30  Loss: = 0.0887
+Start Training:
+Epoch 6  of 30  Loss: = 0.1162
+Start Training:
+Epoch 6  of 30  Loss: = 0.0848
+Start Training:
+Epoch 6  of 30  Loss: = 0.1023
+Start Training:
+Epoch 6  of 30  Loss: = 0.0953
+Start Training:
+Epoch 6  of 30  Loss: = 0.1134
+Start Training:
+Epoch 6  of 30  Loss: = 0.0928
+Start Training:
+Epoch 6  of 30  Loss: = 0.0508
+
+Start Training:
+Epoch 7  of 30  Loss: = 0.1325
+Start Training:
+Epoch 7  of 30  Loss: = 0.1524
+Start Training:
+Epoch 7  of 30  Loss: = 0.0935
+Start Training:
+Epoch 7  of 30  Loss: = 0.1239
+Start Training:
+Epoch 7  of 30  Loss: = 0.1028
+Start Training:
+Epoch 7  of 30  Loss: = 0.1227
+Start Training:
+Epoch 7  of 30  Loss: = 0.0726
+Start Training:
+Epoch 7  of 30  Loss: = 0.0928
+Start Training:
+Epoch 7  of 30  Loss: = 0.0854
+Start Training:
+Epoch 7  of 30  Loss: = 0.0969
+Start Training:
+Epoch 7  of 30  Loss: = 0.1298
+Start Training:
+Epoch 7  of 30  Loss: = 0.0755
+Start Training:
+Epoch 7  of 30  Loss: = 0.1396
+Start Training:
+Epoch 7  of 30  Loss: = 0.1155
+Start Training:
+Epoch 7  of 30  Loss: = 0.0867
+Start Training:
+Epoch 7  of 30  Loss: = 0.1344
+Start Training:
+Epoch 7  of 30  Loss: = 0.1079
+Start Training:
+Epoch 7  of 30  Loss: = 0.1014
+Start Training:
+Epoch 7  of 30  Loss: = 0.1164
+Start Training:
+Epoch 7  of 30  Loss: = 0.0906
+Start Training:
+Epoch 7  of 30  Loss: = 0.0762
+Start Training:
+Epoch 7  of 30  Loss: = 0.1004
+Start Training:
+Epoch 7  of 30  Loss: = 0.1003
+Start Training:
+Epoch 7  of 30  Loss: = 0.0911
+Start Training:
+Epoch 7  of 30  Loss: = 0.1343
+Start Training:
+Epoch 7  of 30  Loss: = 0.0780
+Start Training:
+Epoch 7  of 30  Loss: = 0.0837
+Start Training:
+Epoch 7  of 30  Loss: = 0.1216
+Start Training:
+Epoch 7  of 30  Loss: = 0.0836
+Start Training:
+Epoch 7  of 30  Loss: = 0.0937
+Start Training:
+Epoch 7  of 30  Loss: = 0.0652
+Start Training:
+Epoch 7  of 30  Loss: = 0.0821
+Start Training:
+Epoch 7  of 30  Loss: = 0.0747
+Start Training:
+Epoch 7  of 30  Loss: = 0.0657
+Start Training:
+Epoch 7  of 30  Loss: = 0.0839
+Start Training:
+Epoch 7  of 30  Loss: = 0.1065
+Start Training:
+Epoch 7  of 30  Loss: = 0.0755
+
+Start Training:
+Epoch 8  of 30  Loss: = 0.0865
+Start Training:
+Epoch 8  of 30  Loss: = 0.0765
+Start Training:
+Epoch 8  of 30  Loss: = 0.0652
+Start Training:
+Epoch 8  of 30  Loss: = 0.0798
+Start Training:
+Epoch 8  of 30  Loss: = 0.0950
+Start Training:
+Epoch 8  of 30  Loss: = 0.0846
+Start Training:
+Epoch 8  of 30  Loss: = 0.0950
+Start Training:
+Epoch 8  of 30  Loss: = 0.0704
+Start Training:
+Epoch 8  of 30  Loss: = 0.0703
+Start Training:
+Epoch 8  of 30  Loss: = 0.0651
+Start Training:
+Epoch 8  of 30  Loss: = 0.0777
+Start Training:
+Epoch 8  of 30  Loss: = 0.0835
+Start Training:
+Epoch 8  of 30  Loss: = 0.0946
+Start Training:
+Epoch 8  of 30  Loss: = 0.1381
+Start Training:
+Epoch 8  of 30  Loss: = 0.0820
+Start Training:
+Epoch 8  of 30  Loss: = 0.0819
+Start Training:
+Epoch 8  of 30  Loss: = 0.0907
+Start Training:
+Epoch 8  of 30  Loss: = 0.0757
+Start Training:
+Epoch 8  of 30  Loss: = 0.0744
+Start Training:
+Epoch 8  of 30  Loss: = 0.0793
+Start Training:
+Epoch 8  of 30  Loss: = 0.1047
+Start Training:
+Epoch 8  of 30  Loss: = 0.0693
+Start Training:
+Epoch 8  of 30  Loss: = 0.0819
+Start Training:
+Epoch 8  of 30  Loss: = 0.0672
+Start Training:
+Epoch 8  of 30  Loss: = 0.0561
+Start Training:
+Epoch 8  of 30  Loss: = 0.1111
+Start Training:
+Epoch 8  of 30  Loss: = 0.0667
+Start Training:
+Epoch 8  of 30  Loss: = 0.0874
+Start Training:
+Epoch 8  of 30  Loss: = 0.0773
+Start Training:
+Epoch 8  of 30  Loss: = 0.0840
+Start Training:
+Epoch 8  of 30  Loss: = 0.0826
+Start Training:
+Epoch 8  of 30  Loss: = 0.0844
+Start Training:
+Epoch 8  of 30  Loss: = 0.0757
+Start Training:
+Epoch 8  of 30  Loss: = 0.1174
+Start Training:
+Epoch 8  of 30  Loss: = 0.0616
+Start Training:
+Epoch 8  of 30  Loss: = 0.0999
+Start Training:
+Epoch 8  of 30  Loss: = 0.1007
+
+Start Training:
+Epoch 9  of 30  Loss: = 0.0883
+Start Training:
+Epoch 9  of 30  Loss: = 0.0908
+Start Training:
+Epoch 9  of 30  Loss: = 0.0793
+Start Training:
+Epoch 9  of 30  Loss: = 0.0791
+Start Training:
+Epoch 9  of 30  Loss: = 0.0957
+Start Training:
+Epoch 9  of 30  Loss: = 0.0850
+Start Training:
+Epoch 9  of 30  Loss: = 0.0616
+Start Training:
+Epoch 9  of 30  Loss: = 0.0774
+Start Training:
+Epoch 9  of 30  Loss: = 0.1062
+Start Training:
+Epoch 9  of 30  Loss: = 0.0774
+Start Training:
+Epoch 9  of 30  Loss: = 0.0935
+Start Training:
+Epoch 9  of 30  Loss: = 0.0772
+Start Training:
+Epoch 9  of 30  Loss: = 0.0684
+Start Training:
+Epoch 9  of 30  Loss: = 0.0859
+Start Training:
+Epoch 9  of 30  Loss: = 0.0509
+Start Training:
+Epoch 9  of 30  Loss: = 0.0789
+Start Training:
+Epoch 9  of 30  Loss: = 0.0754
+Start Training:
+Epoch 9  of 30  Loss: = 0.0529
+Start Training:
+Epoch 9  of 30  Loss: = 0.0717
+Start Training:
+Epoch 9  of 30  Loss: = 0.0857
+Start Training:
+Epoch 9  of 30  Loss: = 0.0665
+Start Training:
+Epoch 9  of 30  Loss: = 0.0638
+Start Training:
+Epoch 9  of 30  Loss: = 0.1035
+Start Training:
+Epoch 9  of 30  Loss: = 0.0596
+Start Training:
+Epoch 9  of 30  Loss: = 0.0770
+Start Training:
+Epoch 9  of 30  Loss: = 0.0695
+Start Training:
+Epoch 9  of 30  Loss: = 0.0623
+Start Training:
+Epoch 9  of 30  Loss: = 0.1177
+Start Training:
+Epoch 9  of 30  Loss: = 0.0761
+Start Training:
+Epoch 9  of 30  Loss: = 0.0586
+Start Training:
+Epoch 9  of 30  Loss: = 0.0824
+Start Training:
+Epoch 9  of 30  Loss: = 0.0576
+Start Training:
+Epoch 9  of 30  Loss: = 0.0924
+Start Training:
+Epoch 9  of 30  Loss: = 0.0805
+Start Training:
+Epoch 9  of 30  Loss: = 0.0724
+Start Training:
+Epoch 9  of 30  Loss: = 0.0587
+Start Training:
+Epoch 9  of 30  Loss: = 0.1266
+
+Start Training:
+Epoch 10  of 30  Loss: = 0.0813
+Start Training:
+Epoch 10  of 30  Loss: = 0.1058
+Start Training:
+Epoch 10  of 30  Loss: = 0.1361
+Start Training:
+Epoch 10  of 30  Loss: = 0.1011
+Start Training:
+Epoch 10  of 30  Loss: = 0.0844
+Start Training:
+Epoch 10  of 30  Loss: = 0.1188
+Start Training:
+Epoch 10  of 30  Loss: = 0.0865
+Start Training:
+Epoch 10  of 30  Loss: = 0.0793
+Start Training:
+Epoch 10  of 30  Loss: = 0.0670
+Start Training:
+Epoch 10  of 30  Loss: = 0.0796
+Start Training:
+Epoch 10  of 30  Loss: = 0.1028
+Start Training:
+Epoch 10  of 30  Loss: = 0.0845
+Start Training:
+Epoch 10  of 30  Loss: = 0.0925
+Start Training:
+Epoch 10  of 30  Loss: = 0.0729
+Start Training:
+Epoch 10  of 30  Loss: = 0.0920
+Start Training:
+Epoch 10  of 30  Loss: = 0.0760
+Start Training:
+Epoch 10  of 30  Loss: = 0.0949
+Start Training:
+Epoch 10  of 30  Loss: = 0.0969
+Start Training:
+Epoch 10  of 30  Loss: = 0.0889
+Start Training:
+Epoch 10  of 30  Loss: = 0.0844
+Start Training:
+Epoch 10  of 30  Loss: = 0.0984
+Start Training:
+Epoch 10  of 30  Loss: = 0.1016
+Start Training:
+Epoch 10  of 30  Loss: = 0.0730
+Start Training:
+Epoch 10  of 30  Loss: = 0.0671
+Start Training:
+Epoch 10  of 30  Loss: = 0.0853
+Start Training:
+Epoch 10  of 30  Loss: = 0.0562
+Start Training:
+Epoch 10  of 30  Loss: = 0.0806
+Start Training:
+Epoch 10  of 30  Loss: = 0.0851
+Start Training:
+Epoch 10  of 30  Loss: = 0.0625
+Start Training:
+Epoch 10  of 30  Loss: = 0.0685
+Start Training:
+Epoch 10  of 30  Loss: = 0.1125
+Start Training:
+Epoch 10  of 30  Loss: = 0.0728
+Start Training:
+Epoch 10  of 30  Loss: = 0.0650
+Start Training:
+Epoch 10  of 30  Loss: = 0.0632
+Start Training:
+Epoch 10  of 30  Loss: = 0.0845
+Start Training:
+Epoch 10  of 30  Loss: = 0.0545
+Start Training:
+Epoch 10  of 30  Loss: = 0.0815
+
+Start Training:
+Epoch 11  of 30  Loss: = 0.0706
+Start Training:
+Epoch 11  of 30  Loss: = 0.0704
+Start Training:
+Epoch 11  of 30  Loss: = 0.0725
+Start Training:
+Epoch 11  of 30  Loss: = 0.0895
+Start Training:
+Epoch 11  of 30  Loss: = 0.0532
+Start Training:
+Epoch 11  of 30  Loss: = 0.0568
+Start Training:
+Epoch 11  of 30  Loss: = 0.0817
+Start Training:
+Epoch 11  of 30  Loss: = 0.0683
+Start Training:
+Epoch 11  of 30  Loss: = 0.0704
+Start Training:
+Epoch 11  of 30  Loss: = 0.0792
+Start Training:
+Epoch 11  of 30  Loss: = 0.0764
+Start Training:
+Epoch 11  of 30  Loss: = 0.0613
+Start Training:
+Epoch 11  of 30  Loss: = 0.0780
+Start Training:
+Epoch 11  of 30  Loss: = 0.0891
+Start Training:
+Epoch 11  of 30  Loss: = 0.0752
+Start Training:
+Epoch 11  of 30  Loss: = 0.0670
+Start Training:
+Epoch 11  of 30  Loss: = 0.0614
+Start Training:
+Epoch 11  of 30  Loss: = 0.0566
+Start Training:
+Epoch 11  of 30  Loss: = 0.0808
+Start Training:
+Epoch 11  of 30  Loss: = 0.0696
+Start Training:
+Epoch 11  of 30  Loss: = 0.0593
+Start Training:
+Epoch 11  of 30  Loss: = 0.0684
+Start Training:
+Epoch 11  of 30  Loss: = 0.0533
+Start Training:
+Epoch 11  of 30  Loss: = 0.0514
+Start Training:
+Epoch 11  of 30  Loss: = 0.0967
+Start Training:
+Epoch 11  of 30  Loss: = 0.0570
+Start Training:
+Epoch 11  of 30  Loss: = 0.0516
+Start Training:
+Epoch 11  of 30  Loss: = 0.0569
+Start Training:
+Epoch 11  of 30  Loss: = 0.0456
+Start Training:
+Epoch 11  of 30  Loss: = 0.0502
+Start Training:
+Epoch 11  of 30  Loss: = 0.0507
+Start Training:
+Epoch 11  of 30  Loss: = 0.0708
+Start Training:
+Epoch 11  of 30  Loss: = 0.0899
+Start Training:
+Epoch 11  of 30  Loss: = 0.0654
+Start Training:
+Epoch 11  of 30  Loss: = 0.0591
+Start Training:
+Epoch 11  of 30  Loss: = 0.0744
+Start Training:
+Epoch 11  of 30  Loss: = 0.0563
+
+Start Training:
+Epoch 12  of 30  Loss: = 0.0467
+Start Training:
+Epoch 12  of 30  Loss: = 0.0513
+Start Training:
+Epoch 12  of 30  Loss: = 0.0769
+Start Training:
+Epoch 12  of 30  Loss: = 0.0576
+Start Training:
+Epoch 12  of 30  Loss: = 0.0759
+Start Training:
+Epoch 12  of 30  Loss: = 0.0428
+Start Training:
+Epoch 12  of 30  Loss: = 0.0423
+Start Training:
+Epoch 12  of 30  Loss: = 0.0652
+Start Training:
+Epoch 12  of 30  Loss: = 0.0516
+Start Training:
+Epoch 12  of 30  Loss: = 0.0799
+Start Training:
+Epoch 12  of 30  Loss: = 0.0544
+Start Training:
+Epoch 12  of 30  Loss: = 0.0605
+Start Training:
+Epoch 12  of 30  Loss: = 0.0833
+Start Training:
+Epoch 12  of 30  Loss: = 0.0471
+Start Training:
+Epoch 12  of 30  Loss: = 0.0468
+Start Training:
+Epoch 12  of 30  Loss: = 0.0541
+Start Training:
+Epoch 12  of 30  Loss: = 0.0499
+Start Training:
+Epoch 12  of 30  Loss: = 0.0754
+Start Training:
+Epoch 12  of 30  Loss: = 0.0595
+Start Training:
+Epoch 12  of 30  Loss: = 0.0575
+Start Training:
+Epoch 12  of 30  Loss: = 0.0519
+Start Training:
+Epoch 12  of 30  Loss: = 0.0429
+Start Training:
+Epoch 12  of 30  Loss: = 0.0946
+Start Training:
+Epoch 12  of 30  Loss: = 0.0646
+Start Training:
+Epoch 12  of 30  Loss: = 0.0479
+Start Training:
+Epoch 12  of 30  Loss: = 0.0621
+Start Training:
+Epoch 12  of 30  Loss: = 0.0706
+Start Training:
+Epoch 12  of 30  Loss: = 0.0651
+Start Training:
+Epoch 12  of 30  Loss: = 0.0587
+Start Training:
+Epoch 12  of 30  Loss: = 0.0738
+Start Training:
+Epoch 12  of 30  Loss: = 0.0654
+Start Training:
+Epoch 12  of 30  Loss: = 0.0502
+Start Training:
+Epoch 12  of 30  Loss: = 0.0689
+Start Training:
+Epoch 12  of 30  Loss: = 0.0553
+Start Training:
+Epoch 12  of 30  Loss: = 0.0576
+Start Training:
+Epoch 12  of 30  Loss: = 0.0700
+Start Training:
+Epoch 12  of 30  Loss: = 0.0321
+
+Start Training:
+Epoch 13  of 30  Loss: = 0.0604
+Start Training:
+Epoch 13  of 30  Loss: = 0.0771
+Start Training:
+Epoch 13  of 30  Loss: = 0.0457
+Start Training:
+Epoch 13  of 30  Loss: = 0.0556
+Start Training:
+Epoch 13  of 30  Loss: = 0.0492
+Start Training:
+Epoch 13  of 30  Loss: = 0.0472
+Start Training:
+Epoch 13  of 30  Loss: = 0.0497
+Start Training:
+Epoch 13  of 30  Loss: = 0.0406
+Start Training:
+Epoch 13  of 30  Loss: = 0.0533
+Start Training:
+Epoch 13  of 30  Loss: = 0.0452
+Start Training:
+Epoch 13  of 30  Loss: = 0.0495
+Start Training:
+Epoch 13  of 30  Loss: = 0.0481
+Start Training:
+Epoch 13  of 30  Loss: = 0.0608
+Start Training:
+Epoch 13  of 30  Loss: = 0.0431
+Start Training:
+Epoch 13  of 30  Loss: = 0.0583
+Start Training:
+Epoch 13  of 30  Loss: = 0.0625
+Start Training:
+Epoch 13  of 30  Loss: = 0.0867
+Start Training:
+Epoch 13  of 30  Loss: = 0.0432
+Start Training:
+Epoch 13  of 30  Loss: = 0.0525
+Start Training:
+Epoch 13  of 30  Loss: = 0.0636
+Start Training:
+Epoch 13  of 30  Loss: = 0.0526
+Start Training:
+Epoch 13  of 30  Loss: = 0.0627
+Start Training:
+Epoch 13  of 30  Loss: = 0.0398
+Start Training:
+Epoch 13  of 30  Loss: = 0.0475
+Start Training:
+Epoch 13  of 30  Loss: = 0.0619
+Start Training:
+Epoch 13  of 30  Loss: = 0.0645
+Start Training:
+Epoch 13  of 30  Loss: = 0.0589
+Start Training:
+Epoch 13  of 30  Loss: = 0.0671
+Start Training:
+Epoch 13  of 30  Loss: = 0.0460
+Start Training:
+Epoch 13  of 30  Loss: = 0.0601
+Start Training:
+Epoch 13  of 30  Loss: = 0.0624
+Start Training:
+Epoch 13  of 30  Loss: = 0.0595
+Start Training:
+Epoch 13  of 30  Loss: = 0.0576
+Start Training:
+Epoch 13  of 30  Loss: = 0.0568
+Start Training:
+Epoch 13  of 30  Loss: = 0.0624
+Start Training:
+Epoch 13  of 30  Loss: = 0.0443
+Start Training:
+Epoch 13  of 30  Loss: = 0.0632
+
+Start Training:
+Epoch 14  of 30  Loss: = 0.0521
+Start Training:
+Epoch 14  of 30  Loss: = 0.0581
+Start Training:
+Epoch 14  of 30  Loss: = 0.0498
+Start Training:
+Epoch 14  of 30  Loss: = 0.0582
+Start Training:
+Epoch 14  of 30  Loss: = 0.0363
+Start Training:
+Epoch 14  of 30  Loss: = 0.0620
+Start Training:
+Epoch 14  of 30  Loss: = 0.0462
+Start Training:
+Epoch 14  of 30  Loss: = 0.0566
+Start Training:
+Epoch 14  of 30  Loss: = 0.0423
+Start Training:
+Epoch 14  of 30  Loss: = 0.0748
+Start Training:
+Epoch 14  of 30  Loss: = 0.0804
+Start Training:
+Epoch 14  of 30  Loss: = 0.0581
+Start Training:
+Epoch 14  of 30  Loss: = 0.0595
+Start Training:
+Epoch 14  of 30  Loss: = 0.0447
+Start Training:
+Epoch 14  of 30  Loss: = 0.0465
+Start Training:
+Epoch 14  of 30  Loss: = 0.0438
+Start Training:
+Epoch 14  of 30  Loss: = 0.0479
+Start Training:
+Epoch 14  of 30  Loss: = 0.0595
+Start Training:
+Epoch 14  of 30  Loss: = 0.0601
+Start Training:
+Epoch 14  of 30  Loss: = 0.0567
+Start Training:
+Epoch 14  of 30  Loss: = 0.0292
+Start Training:
+Epoch 14  of 30  Loss: = 0.0513
+Start Training:
+Epoch 14  of 30  Loss: = 0.0478
+Start Training:
+Epoch 14  of 30  Loss: = 0.0567
+Start Training:
+Epoch 14  of 30  Loss: = 0.0441
+Start Training:
+Epoch 14  of 30  Loss: = 0.0453
+Start Training:
+Epoch 14  of 30  Loss: = 0.0473
+Start Training:
+Epoch 14  of 30  Loss: = 0.0442
+Start Training:
+Epoch 14  of 30  Loss: = 0.0450
+Start Training:
+Epoch 14  of 30  Loss: = 0.0574
+Start Training:
+Epoch 14  of 30  Loss: = 0.0476
+Start Training:
+Epoch 14  of 30  Loss: = 0.0823
+Start Training:
+Epoch 14  of 30  Loss: = 0.0559
+Start Training:
+Epoch 14  of 30  Loss: = 0.0650
+Start Training:
+Epoch 14  of 30  Loss: = 0.0496
+Start Training:
+Epoch 14  of 30  Loss: = 0.0460
+Start Training:
+Epoch 14  of 30  Loss: = 0.0292
+
+Start Training:
+Epoch 15  of 30  Loss: = 0.0529
+Start Training:
+Epoch 15  of 30  Loss: = 0.0501
+Start Training:
+Epoch 15  of 30  Loss: = 0.0598
+Start Training:
+Epoch 15  of 30  Loss: = 0.0373
+Start Training:
+Epoch 15  of 30  Loss: = 0.0466
+Start Training:
+Epoch 15  of 30  Loss: = 0.0379
+Start Training:
+Epoch 15  of 30  Loss: = 0.0490
+Start Training:
+Epoch 15  of 30  Loss: = 0.0415
+Start Training:
+Epoch 15  of 30  Loss: = 0.0576
+Start Training:
+Epoch 15  of 30  Loss: = 0.0539
+Start Training:
+Epoch 15  of 30  Loss: = 0.0376
+Start Training:
+Epoch 15  of 30  Loss: = 0.0645
+Start Training:
+Epoch 15  of 30  Loss: = 0.0579
+Start Training:
+Epoch 15  of 30  Loss: = 0.0458
+Start Training:
+Epoch 15  of 30  Loss: = 0.0445
+Start Training:
+Epoch 15  of 30  Loss: = 0.0683
+Start Training:
+Epoch 15  of 30  Loss: = 0.0543
+Start Training:
+Epoch 15  of 30  Loss: = 0.0529
+Start Training:
+Epoch 15  of 30  Loss: = 0.0442
+Start Training:
+Epoch 15  of 30  Loss: = 0.0405
+Start Training:
+Epoch 15  of 30  Loss: = 0.0431
+Start Training:
+Epoch 15  of 30  Loss: = 0.0448
+Start Training:
+Epoch 15  of 30  Loss: = 0.0380
+Start Training:
+Epoch 15  of 30  Loss: = 0.0735
+Start Training:
+Epoch 15  of 30  Loss: = 0.0393
+Start Training:
+Epoch 15  of 30  Loss: = 0.0541
+Start Training:
+Epoch 15  of 30  Loss: = 0.0439
+Start Training:
+Epoch 15  of 30  Loss: = 0.0405
+Start Training:
+Epoch 15  of 30  Loss: = 0.0427
+Start Training:
+Epoch 15  of 30  Loss: = 0.0597
+Start Training:
+Epoch 15  of 30  Loss: = 0.0499
+Start Training:
+Epoch 15  of 30  Loss: = 0.0516
+Start Training:
+Epoch 15  of 30  Loss: = 0.0288
+Start Training:
+Epoch 15  of 30  Loss: = 0.0489
+Start Training:
+Epoch 15  of 30  Loss: = 0.0487
+Start Training:
+Epoch 15  of 30  Loss: = 0.0403
+Start Training:
+Epoch 15  of 30  Loss: = 0.1338
+
+Start Training:
+Epoch 16  of 30  Loss: = 0.0450
+Start Training:
+Epoch 16  of 30  Loss: = 0.0557
+Start Training:
+Epoch 16  of 30  Loss: = 0.0807
+Start Training:
+Epoch 16  of 30  Loss: = 0.0527
+Start Training:
+Epoch 16  of 30  Loss: = 0.0561
+Start Training:
+Epoch 16  of 30  Loss: = 0.0366
+Start Training:
+Epoch 16  of 30  Loss: = 0.0482
+Start Training:
+Epoch 16  of 30  Loss: = 0.0633
+Start Training:
+Epoch 16  of 30  Loss: = 0.0442
+Start Training:
+Epoch 16  of 30  Loss: = 0.0490
+Start Training:
+Epoch 16  of 30  Loss: = 0.0595
+Start Training:
+Epoch 16  of 30  Loss: = 0.0568
+Start Training:
+Epoch 16  of 30  Loss: = 0.0485
+Start Training:
+Epoch 16  of 30  Loss: = 0.0421
+Start Training:
+Epoch 16  of 30  Loss: = 0.0464
+Start Training:
+Epoch 16  of 30  Loss: = 0.0379
+Start Training:
+Epoch 16  of 30  Loss: = 0.0417
+Start Training:
+Epoch 16  of 30  Loss: = 0.0660
+Start Training:
+Epoch 16  of 30  Loss: = 0.0521
+Start Training:
+Epoch 16  of 30  Loss: = 0.0574
+Start Training:
+Epoch 16  of 30  Loss: = 0.0337
+Start Training:
+Epoch 16  of 30  Loss: = 0.0515
+Start Training:
+Epoch 16  of 30  Loss: = 0.0401
+Start Training:
+Epoch 16  of 30  Loss: = 0.0582
+Start Training:
+Epoch 16  of 30  Loss: = 0.0364
+Start Training:
+Epoch 16  of 30  Loss: = 0.0642
+Start Training:
+Epoch 16  of 30  Loss: = 0.0525
+Start Training:
+Epoch 16  of 30  Loss: = 0.0650
+Start Training:
+Epoch 16  of 30  Loss: = 0.0529
+Start Training:
+Epoch 16  of 30  Loss: = 0.0450
+Start Training:
+Epoch 16  of 30  Loss: = 0.0442
+Start Training:
+Epoch 16  of 30  Loss: = 0.0461
+Start Training:
+Epoch 16  of 30  Loss: = 0.0536
+Start Training:
+Epoch 16  of 30  Loss: = 0.0470
+Start Training:
+Epoch 16  of 30  Loss: = 0.0471
+Start Training:
+Epoch 16  of 30  Loss: = 0.0526
+Start Training:
+Epoch 16  of 30  Loss: = 0.0470
+
+Start Training:
+Epoch 17  of 30  Loss: = 0.0538
+Start Training:
+Epoch 17  of 30  Loss: = 0.0569
+Start Training:
+Epoch 17  of 30  Loss: = 0.0372
+Start Training:
+Epoch 17  of 30  Loss: = 0.0380
+Start Training:
+Epoch 17  of 30  Loss: = 0.0548
+Start Training:
+Epoch 17  of 30  Loss: = 0.0424
+Start Training:
+Epoch 17  of 30  Loss: = 0.0434
+Start Training:
+Epoch 17  of 30  Loss: = 0.0520
+Start Training:
+Epoch 17  of 30  Loss: = 0.0558
+Start Training:
+Epoch 17  of 30  Loss: = 0.0627
+Start Training:
+Epoch 17  of 30  Loss: = 0.0599
+Start Training:
+Epoch 17  of 30  Loss: = 0.0657
+Start Training:
+Epoch 17  of 30  Loss: = 0.0556
+Start Training:
+Epoch 17  of 30  Loss: = 0.0516
+Start Training:
+Epoch 17  of 30  Loss: = 0.0422
+Start Training:
+Epoch 17  of 30  Loss: = 0.0306
+Start Training:
+Epoch 17  of 30  Loss: = 0.0324
+Start Training:
+Epoch 17  of 30  Loss: = 0.0490
+Start Training:
+Epoch 17  of 30  Loss: = 0.0427
+Start Training:
+Epoch 17  of 30  Loss: = 0.0398
+Start Training:
+Epoch 17  of 30  Loss: = 0.0348
+Start Training:
+Epoch 17  of 30  Loss: = 0.0324
+Start Training:
+Epoch 17  of 30  Loss: = 0.0520
+Start Training:
+Epoch 17  of 30  Loss: = 0.0464
+Start Training:
+Epoch 17  of 30  Loss: = 0.0481
+Start Training:
+Epoch 17  of 30  Loss: = 0.0388
+Start Training:
+Epoch 17  of 30  Loss: = 0.0434
+Start Training:
+Epoch 17  of 30  Loss: = 0.0617
+Start Training:
+Epoch 17  of 30  Loss: = 0.0538
+Start Training:
+Epoch 17  of 30  Loss: = 0.0286
+Start Training:
+Epoch 17  of 30  Loss: = 0.0298
+Start Training:
+Epoch 17  of 30  Loss: = 0.0472
+Start Training:
+Epoch 17  of 30  Loss: = 0.0478
+Start Training:
+Epoch 17  of 30  Loss: = 0.0413
+Start Training:
+Epoch 17  of 30  Loss: = 0.0567
+Start Training:
+Epoch 17  of 30  Loss: = 0.0363
+Start Training:
+Epoch 17  of 30  Loss: = 0.0454
+
+Start Training:
+Epoch 18  of 30  Loss: = 0.0598
+Start Training:
+Epoch 18  of 30  Loss: = 0.0553
+Start Training:
+Epoch 18  of 30  Loss: = 0.0405
+Start Training:
+Epoch 18  of 30  Loss: = 0.0465
+Start Training:
+Epoch 18  of 30  Loss: = 0.0352
+Start Training:
+Epoch 18  of 30  Loss: = 0.0390
+Start Training:
+Epoch 18  of 30  Loss: = 0.0440
+Start Training:
+Epoch 18  of 30  Loss: = 0.0426
+Start Training:
+Epoch 18  of 30  Loss: = 0.0341
+Start Training:
+Epoch 18  of 30  Loss: = 0.0396
+Start Training:
+Epoch 18  of 30  Loss: = 0.0358
+Start Training:
+Epoch 18  of 30  Loss: = 0.0402
+Start Training:
+Epoch 18  of 30  Loss: = 0.0353
+Start Training:
+Epoch 18  of 30  Loss: = 0.0555
+Start Training:
+Epoch 18  of 30  Loss: = 0.0398
+Start Training:
+Epoch 18  of 30  Loss: = 0.0406
+Start Training:
+Epoch 18  of 30  Loss: = 0.0551
+Start Training:
+Epoch 18  of 30  Loss: = 0.0416
+Start Training:
+Epoch 18  of 30  Loss: = 0.0355
+Start Training:
+Epoch 18  of 30  Loss: = 0.0372
+Start Training:
+Epoch 18  of 30  Loss: = 0.0381
+Start Training:
+Epoch 18  of 30  Loss: = 0.0514
+Start Training:
+Epoch 18  of 30  Loss: = 0.0646
+Start Training:
+Epoch 18  of 30  Loss: = 0.0530
+Start Training:
+Epoch 18  of 30  Loss: = 0.0427
+Start Training:
+Epoch 18  of 30  Loss: = 0.0412
+Start Training:
+Epoch 18  of 30  Loss: = 0.0417
+Start Training:
+Epoch 18  of 30  Loss: = 0.0406
+Start Training:
+Epoch 18  of 30  Loss: = 0.0339
+Start Training:
+Epoch 18  of 30  Loss: = 0.0417
+Start Training:
+Epoch 18  of 30  Loss: = 0.0478
+Start Training:
+Epoch 18  of 30  Loss: = 0.0512
+Start Training:
+Epoch 18  of 30  Loss: = 0.0441
+Start Training:
+Epoch 18  of 30  Loss: = 0.0419
+Start Training:
+Epoch 18  of 30  Loss: = 0.0436
+Start Training:
+Epoch 18  of 30  Loss: = 0.0390
+Start Training:
+Epoch 18  of 30  Loss: = 0.0405
+
+Start Training:
+Epoch 19  of 30  Loss: = 0.0314
+Start Training:
+Epoch 19  of 30  Loss: = 0.0357
+Start Training:
+Epoch 19  of 30  Loss: = 0.0345
+Start Training:
+Epoch 19  of 30  Loss: = 0.0380
+Start Training:
+Epoch 19  of 30  Loss: = 0.0341
+Start Training:
+Epoch 19  of 30  Loss: = 0.0489
+Start Training:
+Epoch 19  of 30  Loss: = 0.0511
+Start Training:
+Epoch 19  of 30  Loss: = 0.0294
+Start Training:
+Epoch 19  of 30  Loss: = 0.0629
+Start Training:
+Epoch 19  of 30  Loss: = 0.0349
+Start Training:
+Epoch 19  of 30  Loss: = 0.0400
+Start Training:
+Epoch 19  of 30  Loss: = 0.0432
+Start Training:
+Epoch 19  of 30  Loss: = 0.0350
+Start Training:
+Epoch 19  of 30  Loss: = 0.0342
+Start Training:
+Epoch 19  of 30  Loss: = 0.0482
+Start Training:
+Epoch 19  of 30  Loss: = 0.0438
+Start Training:
+Epoch 19  of 30  Loss: = 0.0465
+Start Training:
+Epoch 19  of 30  Loss: = 0.0544
+Start Training:
+Epoch 19  of 30  Loss: = 0.0460
+Start Training:
+Epoch 19  of 30  Loss: = 0.0305
+Start Training:
+Epoch 19  of 30  Loss: = 0.0327
+Start Training:
+Epoch 19  of 30  Loss: = 0.0623
+Start Training:
+Epoch 19  of 30  Loss: = 0.0303
+Start Training:
+Epoch 19  of 30  Loss: = 0.0313
+Start Training:
+Epoch 19  of 30  Loss: = 0.0465
+Start Training:
+Epoch 19  of 30  Loss: = 0.0371
+Start Training:
+Epoch 19  of 30  Loss: = 0.0510
+Start Training:
+Epoch 19  of 30  Loss: = 0.0307
+Start Training:
+Epoch 19  of 30  Loss: = 0.0578
+Start Training:
+Epoch 19  of 30  Loss: = 0.0523
+Start Training:
+Epoch 19  of 30  Loss: = 0.0488
+Start Training:
+Epoch 19  of 30  Loss: = 0.0501
+Start Training:
+Epoch 19  of 30  Loss: = 0.0549
+Start Training:
+Epoch 19  of 30  Loss: = 0.0533
+Start Training:
+Epoch 19  of 30  Loss: = 0.0481
+Start Training:
+Epoch 19  of 30  Loss: = 0.0443
+Start Training:
+Epoch 19  of 30  Loss: = 0.0214
+
+Start Training:
+Epoch 20  of 30  Loss: = 0.0422
+Start Training:
+Epoch 20  of 30  Loss: = 0.0527
+Start Training:
+Epoch 20  of 30  Loss: = 0.0310
+Start Training:
+Epoch 20  of 30  Loss: = 0.0392
+Start Training:
+Epoch 20  of 30  Loss: = 0.0492
+Start Training:
+Epoch 20  of 30  Loss: = 0.0488
+Start Training:
+Epoch 20  of 30  Loss: = 0.0369
+Start Training:
+Epoch 20  of 30  Loss: = 0.0387
+Start Training:
+Epoch 20  of 30  Loss: = 0.0613
+Start Training:
+Epoch 20  of 30  Loss: = 0.0521
+Start Training:
+Epoch 20  of 30  Loss: = 0.0451
+Start Training:
+Epoch 20  of 30  Loss: = 0.0307
+Start Training:
+Epoch 20  of 30  Loss: = 0.0383
+Start Training:
+Epoch 20  of 30  Loss: = 0.0472
+Start Training:
+Epoch 20  of 30  Loss: = 0.0443
+Start Training:
+Epoch 20  of 30  Loss: = 0.0441
+Start Training:
+Epoch 20  of 30  Loss: = 0.0440
+Start Training:
+Epoch 20  of 30  Loss: = 0.0344
+Start Training:
+Epoch 20  of 30  Loss: = 0.0380
+Start Training:
+Epoch 20  of 30  Loss: = 0.0286
+Start Training:
+Epoch 20  of 30  Loss: = 0.0522
+Start Training:
+Epoch 20  of 30  Loss: = 0.0359
+Start Training:
+Epoch 20  of 30  Loss: = 0.0416
+Start Training:
+Epoch 20  of 30  Loss: = 0.0372
+Start Training:
+Epoch 20  of 30  Loss: = 0.0428
+Start Training:
+Epoch 20  of 30  Loss: = 0.0582
+Start Training:
+Epoch 20  of 30  Loss: = 0.0347
+Start Training:
+Epoch 20  of 30  Loss: = 0.0568
+Start Training:
+Epoch 20  of 30  Loss: = 0.0313
+Start Training:
+Epoch 20  of 30  Loss: = 0.0325
+Start Training:
+Epoch 20  of 30  Loss: = 0.0439
+Start Training:
+Epoch 20  of 30  Loss: = 0.0373
+Start Training:
+Epoch 20  of 30  Loss: = 0.0425
+Start Training:
+Epoch 20  of 30  Loss: = 0.0450
+Start Training:
+Epoch 20  of 30  Loss: = 0.0342
+Start Training:
+Epoch 20  of 30  Loss: = 0.0356
+Start Training:
+Epoch 20  of 30  Loss: = 0.0337
+
+Start Training:
+Epoch 21  of 30  Loss: = 0.0430
+Start Training:
+Epoch 21  of 30  Loss: = 0.0349
+Start Training:
+Epoch 21  of 30  Loss: = 0.0334
+Start Training:
+Epoch 21  of 30  Loss: = 0.0765
+Start Training:
+Epoch 21  of 30  Loss: = 0.0448
+Start Training:
+Epoch 21  of 30  Loss: = 0.0328
+Start Training:
+Epoch 21  of 30  Loss: = 0.0286
+Start Training:
+Epoch 21  of 30  Loss: = 0.0348
+Start Training:
+Epoch 21  of 30  Loss: = 0.0588
+Start Training:
+Epoch 21  of 30  Loss: = 0.0346
+Start Training:
+Epoch 21  of 30  Loss: = 0.0338
+Start Training:
+Epoch 21  of 30  Loss: = 0.0608
+Start Training:
+Epoch 21  of 30  Loss: = 0.0349
+Start Training:
+Epoch 21  of 30  Loss: = 0.0425
+Start Training:
+Epoch 21  of 30  Loss: = 0.0438
+Start Training:
+Epoch 21  of 30  Loss: = 0.0398
+Start Training:
+Epoch 21  of 30  Loss: = 0.0419
+Start Training:
+Epoch 21  of 30  Loss: = 0.0487
+Start Training:
+Epoch 21  of 30  Loss: = 0.0440
+Start Training:
+Epoch 21  of 30  Loss: = 0.0358
+Start Training:
+Epoch 21  of 30  Loss: = 0.0321
+Start Training:
+Epoch 21  of 30  Loss: = 0.0471
+Start Training:
+Epoch 21  of 30  Loss: = 0.0485
+Start Training:
+Epoch 21  of 30  Loss: = 0.0365
+Start Training:
+Epoch 21  of 30  Loss: = 0.0323
+Start Training:
+Epoch 21  of 30  Loss: = 0.0435
+Start Training:
+Epoch 21  of 30  Loss: = 0.0579
+Start Training:
+Epoch 21  of 30  Loss: = 0.0386
+Start Training:
+Epoch 21  of 30  Loss: = 0.0389
+Start Training:
+Epoch 21  of 30  Loss: = 0.0292
+Start Training:
+Epoch 21  of 30  Loss: = 0.0244
+Start Training:
+Epoch 21  of 30  Loss: = 0.0410
+Start Training:
+Epoch 21  of 30  Loss: = 0.0379
+Start Training:
+Epoch 21  of 30  Loss: = 0.0360
+Start Training:
+Epoch 21  of 30  Loss: = 0.0361
+Start Training:
+Epoch 21  of 30  Loss: = 0.0383
+Start Training:
+Epoch 21  of 30  Loss: = 0.0136
+
+Start Training:
+Epoch 22  of 30  Loss: = 0.0354
+Start Training:
+Epoch 22  of 30  Loss: = 0.0346
+Start Training:
+Epoch 22  of 30  Loss: = 0.0478
+Start Training:
+Epoch 22  of 30  Loss: = 0.0467
+Start Training:
+Epoch 22  of 30  Loss: = 0.0338
+Start Training:
+Epoch 22  of 30  Loss: = 0.0423
+Start Training:
+Epoch 22  of 30  Loss: = 0.0416
+Start Training:
+Epoch 22  of 30  Loss: = 0.0312
+Start Training:
+Epoch 22  of 30  Loss: = 0.0506
+Start Training:
+Epoch 22  of 30  Loss: = 0.0286
+Start Training:
+Epoch 22  of 30  Loss: = 0.0435
+Start Training:
+Epoch 22  of 30  Loss: = 0.0263
+Start Training:
+Epoch 22  of 30  Loss: = 0.0417
+Start Training:
+Epoch 22  of 30  Loss: = 0.0286
+Start Training:
+Epoch 22  of 30  Loss: = 0.0316
+Start Training:
+Epoch 22  of 30  Loss: = 0.0510
+Start Training:
+Epoch 22  of 30  Loss: = 0.0346
+Start Training:
+Epoch 22  of 30  Loss: = 0.0343
+Start Training:
+Epoch 22  of 30  Loss: = 0.0368
+Start Training:
+Epoch 22  of 30  Loss: = 0.0317
+Start Training:
+Epoch 22  of 30  Loss: = 0.0285
+Start Training:
+Epoch 22  of 30  Loss: = 0.0402
+Start Training:
+Epoch 22  of 30  Loss: = 0.0418
+Start Training:
+Epoch 22  of 30  Loss: = 0.0276
+Start Training:
+Epoch 22  of 30  Loss: = 0.0395
+Start Training:
+Epoch 22  of 30  Loss: = 0.0417
+Start Training:
+Epoch 22  of 30  Loss: = 0.0229
+Start Training:
+Epoch 22  of 30  Loss: = 0.0332
+Start Training:
+Epoch 22  of 30  Loss: = 0.0382
+Start Training:
+Epoch 22  of 30  Loss: = 0.0347
+Start Training:
+Epoch 22  of 30  Loss: = 0.0479
+Start Training:
+Epoch 22  of 30  Loss: = 0.0447
+Start Training:
+Epoch 22  of 30  Loss: = 0.0381
+Start Training:
+Epoch 22  of 30  Loss: = 0.0382
+Start Training:
+Epoch 22  of 30  Loss: = 0.0360
+Start Training:
+Epoch 22  of 30  Loss: = 0.0308
+Start Training:
+Epoch 22  of 30  Loss: = 0.0304
+
+Start Training:
+Epoch 23  of 30  Loss: = 0.0414
+Start Training:
+Epoch 23  of 30  Loss: = 0.0216
+Start Training:
+Epoch 23  of 30  Loss: = 0.0349
+Start Training:
+Epoch 23  of 30  Loss: = 0.0352
+Start Training:
+Epoch 23  of 30  Loss: = 0.0438
+Start Training:
+Epoch 23  of 30  Loss: = 0.0321
+Start Training:
+Epoch 23  of 30  Loss: = 0.0369
+Start Training:
+Epoch 23  of 30  Loss: = 0.0266
+Start Training:
+Epoch 23  of 30  Loss: = 0.0339
+Start Training:
+Epoch 23  of 30  Loss: = 0.0377
+Start Training:
+Epoch 23  of 30  Loss: = 0.0366
+Start Training:
+Epoch 23  of 30  Loss: = 0.0344
+Start Training:
+Epoch 23  of 30  Loss: = 0.0332
+Start Training:
+Epoch 23  of 30  Loss: = 0.0355
+Start Training:
+Epoch 23  of 30  Loss: = 0.0426
+Start Training:
+Epoch 23  of 30  Loss: = 0.0393
+Start Training:
+Epoch 23  of 30  Loss: = 0.0393
+Start Training:
+Epoch 23  of 30  Loss: = 0.0356
+Start Training:
+Epoch 23  of 30  Loss: = 0.0391
+Start Training:
+Epoch 23  of 30  Loss: = 0.0270
+Start Training:
+Epoch 23  of 30  Loss: = 0.0320
+Start Training:
+Epoch 23  of 30  Loss: = 0.0264
+Start Training:
+Epoch 23  of 30  Loss: = 0.0399
+Start Training:
+Epoch 23  of 30  Loss: = 0.0279
+Start Training:
+Epoch 23  of 30  Loss: = 0.0432
+Start Training:
+Epoch 23  of 30  Loss: = 0.0330
+Start Training:
+Epoch 23  of 30  Loss: = 0.0310
+Start Training:
+Epoch 23  of 30  Loss: = 0.0495
+Start Training:
+Epoch 23  of 30  Loss: = 0.0383
+Start Training:
+Epoch 23  of 30  Loss: = 0.0374
+Start Training:
+Epoch 23  of 30  Loss: = 0.0237
+Start Training:
+Epoch 23  of 30  Loss: = 0.0305
+Start Training:
+Epoch 23  of 30  Loss: = 0.0273
+Start Training:
+Epoch 23  of 30  Loss: = 0.0391
+Start Training:
+Epoch 23  of 30  Loss: = 0.0312
+Start Training:
+Epoch 23  of 30  Loss: = 0.0524
+Start Training:
+Epoch 23  of 30  Loss: = 0.0281
+
+Start Training:
+Epoch 24  of 30  Loss: = 0.0322
+Start Training:
+Epoch 24  of 30  Loss: = 0.0363
+Start Training:
+Epoch 24  of 30  Loss: = 0.0494
+Start Training:
+Epoch 24  of 30  Loss: = 0.0327
+Start Training:
+Epoch 24  of 30  Loss: = 0.0317
+Start Training:
+Epoch 24  of 30  Loss: = 0.0322
+Start Training:
+Epoch 24  of 30  Loss: = 0.0392
+Start Training:
+Epoch 24  of 30  Loss: = 0.0353
+Start Training:
+Epoch 24  of 30  Loss: = 0.0322
+Start Training:
+Epoch 24  of 30  Loss: = 0.0221
+Start Training:
+Epoch 24  of 30  Loss: = 0.0386
+Start Training:
+Epoch 24  of 30  Loss: = 0.0352
+Start Training:
+Epoch 24  of 30  Loss: = 0.0321
+Start Training:
+Epoch 24  of 30  Loss: = 0.0363
+Start Training:
+Epoch 24  of 30  Loss: = 0.0302
+Start Training:
+Epoch 24  of 30  Loss: = 0.0473
+Start Training:
+Epoch 24  of 30  Loss: = 0.0482
+Start Training:
+Epoch 24  of 30  Loss: = 0.0280
+Start Training:
+Epoch 24  of 30  Loss: = 0.0279
+Start Training:
+Epoch 24  of 30  Loss: = 0.0330
+Start Training:
+Epoch 24  of 30  Loss: = 0.0518
+Start Training:
+Epoch 24  of 30  Loss: = 0.0273
+Start Training:
+Epoch 24  of 30  Loss: = 0.0466
+Start Training:
+Epoch 24  of 30  Loss: = 0.0345
+Start Training:
+Epoch 24  of 30  Loss: = 0.0275
+Start Training:
+Epoch 24  of 30  Loss: = 0.0199
+Start Training:
+Epoch 24  of 30  Loss: = 0.0305
+Start Training:
+Epoch 24  of 30  Loss: = 0.0340
+Start Training:
+Epoch 24  of 30  Loss: = 0.0347
+Start Training:
+Epoch 24  of 30  Loss: = 0.0294
+Start Training:
+Epoch 24  of 30  Loss: = 0.0363
+Start Training:
+Epoch 24  of 30  Loss: = 0.0339
+Start Training:
+Epoch 24  of 30  Loss: = 0.0361
+Start Training:
+Epoch 24  of 30  Loss: = 0.0270
+Start Training:
+Epoch 24  of 30  Loss: = 0.0374
+Start Training:
+Epoch 24  of 30  Loss: = 0.0475
+Start Training:
+Epoch 24  of 30  Loss: = 0.0376
+
+Start Training:
+Epoch 25  of 30  Loss: = 0.0365
+Start Training:
+Epoch 25  of 30  Loss: = 0.0312
+Start Training:
+Epoch 25  of 30  Loss: = 0.0375
+Start Training:
+Epoch 25  of 30  Loss: = 0.0333
+Start Training:
+Epoch 25  of 30  Loss: = 0.0297
+Start Training:
+Epoch 25  of 30  Loss: = 0.0366
+Start Training:
+Epoch 25  of 30  Loss: = 0.0330
+Start Training:
+Epoch 25  of 30  Loss: = 0.0287
+Start Training:
+Epoch 25  of 30  Loss: = 0.0324
+Start Training:
+Epoch 25  of 30  Loss: = 0.0422
+Start Training:
+Epoch 25  of 30  Loss: = 0.0295
+Start Training:
+Epoch 25  of 30  Loss: = 0.0260
+Start Training:
+Epoch 25  of 30  Loss: = 0.0287
+Start Training:
+Epoch 25  of 30  Loss: = 0.0354
+Start Training:
+Epoch 25  of 30  Loss: = 0.0284
+Start Training:
+Epoch 25  of 30  Loss: = 0.0273
+Start Training:
+Epoch 25  of 30  Loss: = 0.0327
+Start Training:
+Epoch 25  of 30  Loss: = 0.0326
+Start Training:
+Epoch 25  of 30  Loss: = 0.0425
+Start Training:
+Epoch 25  of 30  Loss: = 0.0246
+Start Training:
+Epoch 25  of 30  Loss: = 0.0296
+Start Training:
+Epoch 25  of 30  Loss: = 0.0288
+Start Training:
+Epoch 25  of 30  Loss: = 0.0409
+Start Training:
+Epoch 25  of 30  Loss: = 0.0316
+Start Training:
+Epoch 25  of 30  Loss: = 0.0335
+Start Training:
+Epoch 25  of 30  Loss: = 0.0393
+Start Training:
+Epoch 25  of 30  Loss: = 0.0433
+Start Training:
+Epoch 25  of 30  Loss: = 0.0351
+Start Training:
+Epoch 25  of 30  Loss: = 0.0311
+Start Training:
+Epoch 25  of 30  Loss: = 0.0303
+Start Training:
+Epoch 25  of 30  Loss: = 0.0448
+Start Training:
+Epoch 25  of 30  Loss: = 0.0342
+Start Training:
+Epoch 25  of 30  Loss: = 0.0322
+Start Training:
+Epoch 25  of 30  Loss: = 0.0355
+Start Training:
+Epoch 25  of 30  Loss: = 0.0309
+Start Training:
+Epoch 25  of 30  Loss: = 0.0403
+Start Training:
+Epoch 25  of 30  Loss: = 0.0175
+
+Start Training:
+Epoch 26  of 30  Loss: = 0.0343
+Start Training:
+Epoch 26  of 30  Loss: = 0.0429
+Start Training:
+Epoch 26  of 30  Loss: = 0.0324
+Start Training:
+Epoch 26  of 30  Loss: = 0.0335
+Start Training:
+Epoch 26  of 30  Loss: = 0.0238
+Start Training:
+Epoch 26  of 30  Loss: = 0.0330
+Start Training:
+Epoch 26  of 30  Loss: = 0.0264
+Start Training:
+Epoch 26  of 30  Loss: = 0.0231
+Start Training:
+Epoch 26  of 30  Loss: = 0.0302
+Start Training:
+Epoch 26  of 30  Loss: = 0.0300
+Start Training:
+Epoch 26  of 30  Loss: = 0.0380
+Start Training:
+Epoch 26  of 30  Loss: = 0.0297
+Start Training:
+Epoch 26  of 30  Loss: = 0.0274
+Start Training:
+Epoch 26  of 30  Loss: = 0.0295
+Start Training:
+Epoch 26  of 30  Loss: = 0.0302
+Start Training:
+Epoch 26  of 30  Loss: = 0.0370
+Start Training:
+Epoch 26  of 30  Loss: = 0.0297
+Start Training:
+Epoch 26  of 30  Loss: = 0.0296
+Start Training:
+Epoch 26  of 30  Loss: = 0.0297
+Start Training:
+Epoch 26  of 30  Loss: = 0.0346
+Start Training:
+Epoch 26  of 30  Loss: = 0.0427
+Start Training:
+Epoch 26  of 30  Loss: = 0.0251
+Start Training:
+Epoch 26  of 30  Loss: = 0.0363
+Start Training:
+Epoch 26  of 30  Loss: = 0.0284
+Start Training:
+Epoch 26  of 30  Loss: = 0.0242
+Start Training:
+Epoch 26  of 30  Loss: = 0.0221
+Start Training:
+Epoch 26  of 30  Loss: = 0.0383
+Start Training:
+Epoch 26  of 30  Loss: = 0.0276
+Start Training:
+Epoch 26  of 30  Loss: = 0.0455
+Start Training:
+Epoch 26  of 30  Loss: = 0.0391
+Start Training:
+Epoch 26  of 30  Loss: = 0.0327
+Start Training:
+Epoch 26  of 30  Loss: = 0.0313
+Start Training:
+Epoch 26  of 30  Loss: = 0.0340
+Start Training:
+Epoch 26  of 30  Loss: = 0.0414
+Start Training:
+Epoch 26  of 30  Loss: = 0.0276
+Start Training:
+Epoch 26  of 30  Loss: = 0.0307
+Start Training:
+Epoch 26  of 30  Loss: = 0.0203
+
+Start Training:
+Epoch 27  of 30  Loss: = 0.0193
+Start Training:
+Epoch 27  of 30  Loss: = 0.0360
+Start Training:
+Epoch 27  of 30  Loss: = 0.0319
+Start Training:
+Epoch 27  of 30  Loss: = 0.0285
+Start Training:
+Epoch 27  of 30  Loss: = 0.0334
+Start Training:
+Epoch 27  of 30  Loss: = 0.0269
+Start Training:
+Epoch 27  of 30  Loss: = 0.0333
+Start Training:
+Epoch 27  of 30  Loss: = 0.0312
+Start Training:
+Epoch 27  of 30  Loss: = 0.0354
+Start Training:
+Epoch 27  of 30  Loss: = 0.0260
+Start Training:
+Epoch 27  of 30  Loss: = 0.0326
+Start Training:
+Epoch 27  of 30  Loss: = 0.0235
+Start Training:
+Epoch 27  of 30  Loss: = 0.0227
+Start Training:
+Epoch 27  of 30  Loss: = 0.0261
+Start Training:
+Epoch 27  of 30  Loss: = 0.0367
+Start Training:
+Epoch 27  of 30  Loss: = 0.0362
+Start Training:
+Epoch 27  of 30  Loss: = 0.0217
+Start Training:
+Epoch 27  of 30  Loss: = 0.0268
+Start Training:
+Epoch 27  of 30  Loss: = 0.0253
+Start Training:
+Epoch 27  of 30  Loss: = 0.0341
+Start Training:
+Epoch 27  of 30  Loss: = 0.0287
+Start Training:
+Epoch 27  of 30  Loss: = 0.0363
+Start Training:
+Epoch 27  of 30  Loss: = 0.0349
+Start Training:
+Epoch 27  of 30  Loss: = 0.0341
+Start Training:
+Epoch 27  of 30  Loss: = 0.0265
+Start Training:
+Epoch 27  of 30  Loss: = 0.0277
+Start Training:
+Epoch 27  of 30  Loss: = 0.0221
+Start Training:
+Epoch 27  of 30  Loss: = 0.0349
+Start Training:
+Epoch 27  of 30  Loss: = 0.0309
+Start Training:
+Epoch 27  of 30  Loss: = 0.0343
+Start Training:
+Epoch 27  of 30  Loss: = 0.0338
+Start Training:
+Epoch 27  of 30  Loss: = 0.0317
+Start Training:
+Epoch 27  of 30  Loss: = 0.0251
+Start Training:
+Epoch 27  of 30  Loss: = 0.0374
+Start Training:
+Epoch 27  of 30  Loss: = 0.0286
+Start Training:
+Epoch 27  of 30  Loss: = 0.0359
+Start Training:
+Epoch 27  of 30  Loss: = 0.0403
+
+Start Training:
+Epoch 28  of 30  Loss: = 0.0346
+Start Training:
+Epoch 28  of 30  Loss: = 0.0336
+Start Training:
+Epoch 28  of 30  Loss: = 0.0256
+Start Training:
+Epoch 28  of 30  Loss: = 0.0239
+Start Training:
+Epoch 28  of 30  Loss: = 0.0355
+Start Training:
+Epoch 28  of 30  Loss: = 0.0235
+Start Training:
+Epoch 28  of 30  Loss: = 0.0394
+Start Training:
+Epoch 28  of 30  Loss: = 0.0280
+Start Training:
+Epoch 28  of 30  Loss: = 0.0280
+Start Training:
+Epoch 28  of 30  Loss: = 0.0212
+Start Training:
+Epoch 28  of 30  Loss: = 0.0345
+Start Training:
+Epoch 28  of 30  Loss: = 0.0280
+Start Training:
+Epoch 28  of 30  Loss: = 0.0302
+Start Training:
+Epoch 28  of 30  Loss: = 0.0331
+Start Training:
+Epoch 28  of 30  Loss: = 0.0335
+Start Training:
+Epoch 28  of 30  Loss: = 0.0290
+Start Training:
+Epoch 28  of 30  Loss: = 0.0219
+Start Training:
+Epoch 28  of 30  Loss: = 0.0286
+Start Training:
+Epoch 28  of 30  Loss: = 0.0294
+Start Training:
+Epoch 28  of 30  Loss: = 0.0295
+Start Training:
+Epoch 28  of 30  Loss: = 0.0323
+Start Training:
+Epoch 28  of 30  Loss: = 0.0340
+Start Training:
+Epoch 28  of 30  Loss: = 0.0199
+Start Training:
+Epoch 28  of 30  Loss: = 0.0351
+Start Training:
+Epoch 28  of 30  Loss: = 0.0320
+Start Training:
+Epoch 28  of 30  Loss: = 0.0371
+Start Training:
+Epoch 28  of 30  Loss: = 0.0306
+Start Training:
+Epoch 28  of 30  Loss: = 0.0268
+Start Training:
+Epoch 28  of 30  Loss: = 0.0341
+Start Training:
+Epoch 28  of 30  Loss: = 0.0289
+Start Training:
+Epoch 28  of 30  Loss: = 0.0250
+Start Training:
+Epoch 28  of 30  Loss: = 0.0299
+Start Training:
+Epoch 28  of 30  Loss: = 0.0281
+Start Training:
+Epoch 28  of 30  Loss: = 0.0342
+Start Training:
+Epoch 28  of 30  Loss: = 0.0303
+Start Training:
+Epoch 28  of 30  Loss: = 0.0261
+Start Training:
+Epoch 28  of 30  Loss: = 0.0221
+
+Start Training:
+Epoch 29  of 30  Loss: = 0.0275
+Start Training:
+Epoch 29  of 30  Loss: = 0.0369
+Start Training:
+Epoch 29  of 30  Loss: = 0.0297
+Start Training:
+Epoch 29  of 30  Loss: = 0.0273
+Start Training:
+Epoch 29  of 30  Loss: = 0.0333
+Start Training:
+Epoch 29  of 30  Loss: = 0.0316
+Start Training:
+Epoch 29  of 30  Loss: = 0.0306
+Start Training:
+Epoch 29  of 30  Loss: = 0.0327
+Start Training:
+Epoch 29  of 30  Loss: = 0.0298
+Start Training:
+Epoch 29  of 30  Loss: = 0.0254
+Start Training:
+Epoch 29  of 30  Loss: = 0.0216
+Start Training:
+Epoch 29  of 30  Loss: = 0.0278
+Start Training:
+Epoch 29  of 30  Loss: = 0.0280
+Start Training:
+Epoch 29  of 30  Loss: = 0.0341
+Start Training:
+Epoch 29  of 30  Loss: = 0.0289
+Start Training:
+Epoch 29  of 30  Loss: = 0.0384
+Start Training:
+Epoch 29  of 30  Loss: = 0.0346
+Start Training:
+Epoch 29  of 30  Loss: = 0.0273
+Start Training:
+Epoch 29  of 30  Loss: = 0.0270
+Start Training:
+Epoch 29  of 30  Loss: = 0.0243
+Start Training:
+Epoch 29  of 30  Loss: = 0.0388
+Start Training:
+Epoch 29  of 30  Loss: = 0.0248
+Start Training:
+Epoch 29  of 30  Loss: = 0.0316
+Start Training:
+Epoch 29  of 30  Loss: = 0.0284
+Start Training:
+Epoch 29  of 30  Loss: = 0.0367
+Start Training:
+Epoch 29  of 30  Loss: = 0.0320
+Start Training:
+Epoch 29  of 30  Loss: = 0.0146
+Start Training:
+Epoch 29  of 30  Loss: = 0.0349
+Start Training:
+Epoch 29  of 30  Loss: = 0.0260
+Start Training:
+Epoch 29  of 30  Loss: = 0.0385
+Start Training:
+Epoch 29  of 30  Loss: = 0.0316
+Start Training:
+Epoch 29  of 30  Loss: = 0.0226
+Start Training:
+Epoch 29  of 30  Loss: = 0.0253
+Start Training:
+Epoch 29  of 30  Loss: = 0.0296
+Start Training:
+Epoch 29  of 30  Loss: = 0.0309
+Start Training:
+Epoch 29  of 30  Loss: = 0.0270
+Start Training:
+Epoch 29  of 30  Loss: = 0.0135
+
+Start Training:
+Epoch 30  of 30  Loss: = 0.0265
+Start Training:
+Epoch 30  of 30  Loss: = 0.0312
+Start Training:
+Epoch 30  of 30  Loss: = 0.0316
+Start Training:
+Epoch 30  of 30  Loss: = 0.0269
+Start Training:
+Epoch 30  of 30  Loss: = 0.0329
+Start Training:
+Epoch 30  of 30  Loss: = 0.0258
+Start Training:
+Epoch 30  of 30  Loss: = 0.0351
+Start Training:
+Epoch 30  of 30  Loss: = 0.0334
+Start Training:
+Epoch 30  of 30  Loss: = 0.0294
+Start Training:
+Epoch 30  of 30  Loss: = 0.0321
+Start Training:
+Epoch 30  of 30  Loss: = 0.0278
+Start Training:
+Epoch 30  of 30  Loss: = 0.0281
+Start Training:
+Epoch 30  of 30  Loss: = 0.0229
+Start Training:
+Epoch 30  of 30  Loss: = 0.0276
+Start Training:
+Epoch 30  of 30  Loss: = 0.0389
+Start Training:
+Epoch 30  of 30  Loss: = 0.0250
+Start Training:
+Epoch 30  of 30  Loss: = 0.0340
+Start Training:
+Epoch 30  of 30  Loss: = 0.0566
+Start Training:
+Epoch 30  of 30  Loss: = 0.0323
+Start Training:
+Epoch 30  of 30  Loss: = 0.0447
+Start Training:
+Epoch 30  of 30  Loss: = 0.0528
+Start Training:
+Epoch 30  of 30  Loss: = 0.0363
+Start Training:
+Epoch 30  of 30  Loss: = 0.0295
+Start Training:
+Epoch 30  of 30  Loss: = 0.0289
+Start Training:
+Epoch 30  of 30  Loss: = 0.0362
+Start Training:
+Epoch 30  of 30  Loss: = 0.0224
+Start Training:
+Epoch 30  of 30  Loss: = 0.0272
+Start Training:
+Epoch 30  of 30  Loss: = 0.0315
+Start Training:
+Epoch 30  of 30  Loss: = 0.0365
+Start Training:
+Epoch 30  of 30  Loss: = 0.0392
+Start Training:
+Epoch 30  of 30  Loss: = 0.0367
+Start Training:
+Epoch 30  of 30  Loss: = 0.0402
+Start Training:
+Epoch 30  of 30  Loss: = 0.0286
+Start Training:
+Epoch 30  of 30  Loss: = 0.0373
+Start Training:
+Epoch 30  of 30  Loss: = 0.0397
+Start Training:
+Epoch 30  of 30  Loss: = 0.0375
+Start Training:
+Epoch 30  of 30  Loss: = 0.0465
+
+Training Finished. Saving test images to: ./runs/1518735836.50181
+ubuntu@ip-172-31-22-219:~/CarND-Semantic-Segmentation$
